@@ -1,18 +1,16 @@
 package com.group.servlets;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
-
 import com.group.manager.RouteCalculator;
 import com.group.routeplanner.data.Station;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 
 public class ServletContextListener implements javax.servlet.ServletContextListener
 {
